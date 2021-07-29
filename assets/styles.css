@@ -25,4 +25,12 @@
 
 .navbar-toggler {
     margin-right: 3rem;
+    opacity: 1;
 }
+
+/* Title Page  */
+.carouselArrow {
+    width: 40px !important;
+    height: 40px !important;
+}
+
