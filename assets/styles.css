@@ -59,29 +59,31 @@
 }
 
 
+
+/* Menu */
+.img-fondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/adrien-olichon-_GH9LwhlSO4-unsplash.jpg);
+    background-position-y: 10%;
+}
+.menuComida{
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.tit-1{
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+
 /* Footer  */
-#footer {
-    background-color: #fff;
-    margin-bottom: 0;
-    position: relative;
-    top: 40px;
-    left:auto;
-    right: auto;
-  
-  }
+#footer{
+    margin-top: 50%;
+}
 
-  .footer-copyright {
-    margin: 10% 15% 0;
-    padding: 0;
-  }
-  
-  .footer-icon {
-    margin: 1% 1%;
-  }
-
-  .container-fluid {
-  padding: 3% 15% 0;
-  position: relative;
-
-
+.title-card {
+    margin: 7% 8% 7% 8%;
 }
