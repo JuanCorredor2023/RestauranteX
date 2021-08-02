@@ -1,0 +1,160 @@
+/* Navigation Bar */
+.navbar{
+    padding: 1rem 0 0.5rem 0 !important;
+}
+.navbar-logo{
+    padding-left: 70px !important; 
+}
+
+.navbar-items{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-right: 50px !important;
+}
+
+.nav-item {
+    padding: 0 18px;
+  }
+
+.nav-item:hover{
+    border-bottom: 1px solid #333333;
+    border-bottom-width: 1px;
+    background-color: #ededed;
+}
+
+.navbar-toggler {
+    margin-right: 3rem;
+    opacity: 1;
+}
+
+/* Title Page  */
+
+
+.carouselArrow {
+    width: 40px !important;
+    height: 40px !important;
+}
+.main-text {
+    color: #fff;
+    position: absolute;
+    padding-top: 50px;
+    top: 70px;
+    width: 96.6667%;
+}
+
+.carousel-item {
+    opacity: 80%;
+}
+
+.title-message {
+    font-size: 8vw !important;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: black 1px 0px 10px;
+}
+
+.title-message2 {
+    font-size: 3vw !important;
+    font-family: 'Roboto',sans-serif;
+    text-shadow: black 1px 0px 10px;
+}
+
+
+
+/* Menu */
+.img-fondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/adrien-olichon-_GH9LwhlSO4-unsplash.jpg);
+    background-position-y: 10%;
+}
+.menuComida{
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.tit-1{
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Footer  */
+#footer{
+    margin-top: 50%;
+}
+
+.title-card {
+    margin: 7% 8% 7% 8%;
+}
+/*css para sección " Nosotros"---------------------------------------------------------------------*/
+
+/* Form conctactanos*/
+.form-container{
+    margin-bottom: 12rem;
+}
+
+/*  transiciones cards "nosotros"*/
+
+.c-container{
+    max-width: 2000px;
+    margin-bottom: 12rem;
+}
+.profile-card-2 {
+    max-width: 300px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
